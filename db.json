@@ -1,5 +1,5 @@
 {
-  "parts": [
+  "part-search": [
     {
       "id": "446521824",
       "partId": "446521824",
@@ -12,66 +12,39 @@
         "id": 9193,
         "name": "Cable Repair Set, accelerator pedal sensor"
       },
-      "oemReferences": [
+
+      "oemCrossMatchNumbers": [
+        { "number": "736410711000", "brand": "FORD", "isPreferred": true }
+      ],
+
+      "supplierDetails": [
         {
+          "supplierType": "OEM",
           "number": "736410711000",
           "brand": "FORD",
-          "isPreferred": true
-        }
-      ],
-      "replaces": [
-        { "number": "51277160", "brand": "HERTH+BUSS ELPARTS" }
-      ],
-      "replacedBy": [
-        { "number": "51277163", "brand": "HERTH+BUSS ELPARTS" }
-      ],
-      "tradeNumbers": ["RepCon"],
-      "gtins": ["4026736446376"],
-      "images": [
-        { "url": "https://dummy.cdn/parts/446521824-main.jpg", "type": "MAIN" }
-      ],
-      "documents": [
+          "price": { "currency": "SAR", "value": 410.0 },
+          "deliveryTimeDays": 5,
+          "availability": { "inStock": true, "quantity": 12 }
+        },
         {
-          "url": "https://dummy.cdn/parts/446521824-install.pdf",
-          "type": "INSTALLATION"
+          "supplierType": "AFTERMARKET",
+          "number": "51277162",
+          "brand": "HERTH+BUSS ELPARTS",
+          "price": { "currency": "SAR", "value": 220.0 },
+          "deliveryTimeDays": 2,
+          "availability": { "inStock": true, "quantity": 38 }
+        },
+        {
+          "supplierType": "CHINESE",
+          "number": "CN-ACC-REP-001",
+          "brand": "DRAGONPARTS",
+          "price": { "currency": "SAR", "value": 140.0 },
+          "deliveryTimeDays": 10,
+          "availability": { "inStock": true, "quantity": 120 }
         }
       ]
     },
-    {
-      "id": "446521825",
-      "partId": "446521825",
-      "partNumber": "51277163",
-      "brand": "HERTH+BUSS ELPARTS",
-      "type": "aftermarket",
-      "title": "Cable Repair Set, accelerator pedal sensor (reinforced)",
-      "status": "Normal",
-      "genericGroup": {
-        "id": 9193,
-        "name": "Cable Repair Set, accelerator pedal sensor"
-      },
-      "oemReferences": [
-        {
-          "number": "736410711001",
-          "brand": "FORD",
-          "isPreferred": true
-        }
-      ],
-      "replaces": [
-        { "number": "51277162", "brand": "HERTH+BUSS ELPARTS" }
-      ],
-      "replacedBy": [],
-      "tradeNumbers": ["RepCon Plus"],
-      "gtins": ["4026736446377"],
-      "images": [
-        { "url": "https://dummy.cdn/parts/446521825-main.jpg", "type": "MAIN" }
-      ],
-      "documents": [
-        {
-          "url": "https://dummy.cdn/parts/446521825-install.pdf",
-          "type": "INSTALLATION"
-        }
-      ]
-    },
+
     {
       "id": "530001107405",
       "partId": "530001107405",
@@ -84,57 +57,80 @@
         "id": 16,
         "name": "Starter"
       },
-      "oemReferences": [
+
+      "oemCrossMatchNumbers": [
+        { "number": "1613310", "brand": "FORD", "isPreferred": true }
+      ],
+
+      "supplierDetails": [
         {
+          "supplierType": "OEM",
           "number": "1613310",
           "brand": "FORD",
-          "isPreferred": true
-        }
-      ],
-      "replaces": [
-        { "number": "0 001 107 395", "brand": "BOSCH" }
-      ],
-      "replacedBy": [
-        { "number": "0 001 107 435", "brand": "BOSCH" }
-      ],
-      "tradeNumbers": ["Exchange"],
-      "gtins": ["4047023471234"],
-      "images": [
-        { "url": "https://dummy.cdn/parts/530001107405-main.jpg", "type": "MAIN" }
-      ],
-      "documents": [
+          "price": { "currency": "SAR", "value": 950.0 },
+          "deliveryTimeDays": 6,
+          "availability": { "inStock": true, "quantity": 6 }
+        },
         {
-          "url": "https://dummy.cdn/parts/530001107405-spec.pdf",
-          "type": "DATASHEET"
+          "supplierType": "AFTERMARKET",
+          "number": "0 001 107 405",
+          "brand": "BOSCH",
+          "price": { "currency": "SAR", "value": 620.0 },
+          "deliveryTimeDays": 3,
+          "availability": { "inStock": true, "quantity": 18 }
+        },
+        {
+          "supplierType": "CHINESE",
+          "number": "CN-STR-001",
+          "brand": "YONGXING",
+          "price": { "currency": "SAR", "value": 310.0 },
+          "deliveryTimeDays": 12,
+          "availability": { "inStock": true, "quantity": 50 }
         }
       ]
     },
+
     {
-      "id": "361613310",
-      "partId": "361613310",
-      "partNumber": "1613310",
-      "brand": "FORD",
+      "id": "43512-06150",
+      "partId": "43512-06150",
+      "partNumber": "43512-06150",
+      "brand": "TOYOTA",
       "type": "genuine",
-      "title": "Starter motor (OE)",
+      "title": "Brake disc, front",
       "status": "Normal",
       "genericGroup": {
-        "id": 16,
-        "name": "Starter"
+        "id": 100032,
+        "name": "Brake Disc, front"
       },
-      "oemReferences": [],
-      "replaces": [],
-      "replacedBy": [
-        { "number": "1751234", "brand": "FORD" }
+
+      "oemCrossMatchNumbers": [
+        { "number": "43512-06150", "brand": "TOYOTA", "isPreferred": true }
       ],
-      "tradeNumbers": [],
-      "gtins": ["5012345678901"],
-      "images": [
-        { "url": "https://dummy.cdn/parts/361613310-main.jpg", "type": "MAIN" }
-      ],
-      "documents": [
+
+      "supplierDetails": [
         {
-          "url": "https://dummy.cdn/parts/361613310-oem.pdf",
-          "type": "OE_INFO"
+          "supplierType": "OEM",
+          "number": "43512-06150",
+          "brand": "TOYOTA",
+          "price": { "currency": "SAR", "value": 780.0 },
+          "deliveryTimeDays": 4,
+          "availability": { "inStock": true, "quantity": 9 }
+        },
+        {
+          "supplierType": "AFTERMARKET",
+          "number": "09.A123.10",
+          "brand": "BREMBO",
+          "price": { "currency": "SAR", "value": 520.0 },
+          "deliveryTimeDays": 2,
+          "availability": { "inStock": true, "quantity": 22 }
+        },
+        {
+          "supplierType": "CHINESE",
+          "number": "CN-BD-6150",
+          "brand": "DRAGONPARTS",
+          "price": { "currency": "SAR", "value": 210.0 },
+          "deliveryTimeDays": 9,
+          "availability": { "inStock": true, "quantity": 80 }
         }
       ]
     }
