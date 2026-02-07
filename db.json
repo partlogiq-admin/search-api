@@ -196,9 +196,9 @@
       "yearTo": "2009-12"
     }
   ],
-  "image-search" : [
-    "1613310" : 0.95,
-    "0 001 107 405" : 0.82,
-    "51277162" : 0.72
+  "image-search": [
+    { "partNumber": "1613310", "confidence": 0.95 },
+    { "partNumber": "0 001 107 405", "confidence": 0.82 },
+    { "partNumber": "51277162", "confidence": 0.72 }
   ]
 }
