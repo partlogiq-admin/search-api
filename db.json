@@ -1,16 +1,41 @@
 {
-  "posts": [
+  "parts": [
     {
-      "id": 1,
-      "title": "hello"
-    },
-    {
-      "id": 2,
-      "title": "hghg"
-    },
-    {
-      "id": 3,
-      "title": "tftgfytfytfyt"
+      "partId": "446521824",
+      "partNumber": "51277162",
+      "brand": "HERTH+BUSS ELPARTS",
+      "type": "aftermarket",
+      "title": "Cable Repair Set, accelerator pedal sensor",
+      "status": "Normal",
+      "oemReferences": [
+        {
+          "number": "736410711000",
+          "brand": "FORD",
+          "isPreferred": true
+        }
+      ],
+      "replaces": [
+        { "number": "51277160", "brand": "HERTH+BUSS ELPARTS" }
+      ],
+      "replacedBy": [
+        { "number": "51277163", "brand": "HERTH+BUSS ELPARTS" }
+      ],
+      "genericGroup": {
+        "id": 9193,
+        "name": "Cable Repair Set, accelerator pedal sensor"
+      },
+      "images": [
+        {
+          "url": "https://dummy.cdn/parts/446521824-main.jpg",
+          "type": "MAIN"
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://dummy.cdn/parts/446521824-install.pdf",
+          "type": "INSTALLATION"
+        }
+      ]
     }
   ],
   "profile": {
