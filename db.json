@@ -1,13 +1,17 @@
 {
   "parts": [
     {
-      "id" : "446521824",
+      "id": "446521824",
       "partId": "446521824",
       "partNumber": "51277162",
       "brand": "HERTH+BUSS ELPARTS",
       "type": "aftermarket",
       "title": "Cable Repair Set, accelerator pedal sensor",
       "status": "Normal",
+      "genericGroup": {
+        "id": 9193,
+        "name": "Cable Repair Set, accelerator pedal sensor"
+      },
       "oemReferences": [
         {
           "number": "736410711000",
@@ -21,15 +25,10 @@
       "replacedBy": [
         { "number": "51277163", "brand": "HERTH+BUSS ELPARTS" }
       ],
-      "genericGroup": {
-        "id": 9193,
-        "name": "Cable Repair Set, accelerator pedal sensor"
-      },
+      "tradeNumbers": ["RepCon"],
+      "gtins": ["4026736446376"],
       "images": [
-        {
-          "url": "https://dummy.cdn/parts/446521824-main.jpg",
-          "type": "MAIN"
-        }
+        { "url": "https://dummy.cdn/parts/446521824-main.jpg", "type": "MAIN" }
       ],
       "documents": [
         {
@@ -37,8 +36,110 @@
           "type": "INSTALLATION"
         }
       ]
+    },
+    {
+      "id": "446521825",
+      "partId": "446521825",
+      "partNumber": "51277163",
+      "brand": "HERTH+BUSS ELPARTS",
+      "type": "aftermarket",
+      "title": "Cable Repair Set, accelerator pedal sensor (reinforced)",
+      "status": "Normal",
+      "genericGroup": {
+        "id": 9193,
+        "name": "Cable Repair Set, accelerator pedal sensor"
+      },
+      "oemReferences": [
+        {
+          "number": "736410711001",
+          "brand": "FORD",
+          "isPreferred": true
+        }
+      ],
+      "replaces": [
+        { "number": "51277162", "brand": "HERTH+BUSS ELPARTS" }
+      ],
+      "replacedBy": [],
+      "tradeNumbers": ["RepCon Plus"],
+      "gtins": ["4026736446377"],
+      "images": [
+        { "url": "https://dummy.cdn/parts/446521825-main.jpg", "type": "MAIN" }
+      ],
+      "documents": [
+        {
+          "url": "https://dummy.cdn/parts/446521825-install.pdf",
+          "type": "INSTALLATION"
+        }
+      ]
+    },
+    {
+      "id": "530001107405",
+      "partId": "530001107405",
+      "partNumber": "0 001 107 405",
+      "brand": "BOSCH",
+      "type": "aftermarket",
+      "title": "Starter motor",
+      "status": "Normal",
+      "genericGroup": {
+        "id": 16,
+        "name": "Starter"
+      },
+      "oemReferences": [
+        {
+          "number": "1613310",
+          "brand": "FORD",
+          "isPreferred": true
+        }
+      ],
+      "replaces": [
+        { "number": "0 001 107 395", "brand": "BOSCH" }
+      ],
+      "replacedBy": [
+        { "number": "0 001 107 435", "brand": "BOSCH" }
+      ],
+      "tradeNumbers": ["Exchange"],
+      "gtins": ["4047023471234"],
+      "images": [
+        { "url": "https://dummy.cdn/parts/530001107405-main.jpg", "type": "MAIN" }
+      ],
+      "documents": [
+        {
+          "url": "https://dummy.cdn/parts/530001107405-spec.pdf",
+          "type": "DATASHEET"
+        }
+      ]
+    },
+    {
+      "id": "361613310",
+      "partId": "361613310",
+      "partNumber": "1613310",
+      "brand": "FORD",
+      "type": "genuine",
+      "title": "Starter motor (OE)",
+      "status": "Normal",
+      "genericGroup": {
+        "id": 16,
+        "name": "Starter"
+      },
+      "oemReferences": [],
+      "replaces": [],
+      "replacedBy": [
+        { "number": "1751234", "brand": "FORD" }
+      ],
+      "tradeNumbers": [],
+      "gtins": ["5012345678901"],
+      "images": [
+        { "url": "https://dummy.cdn/parts/361613310-main.jpg", "type": "MAIN" }
+      ],
+      "documents": [
+        {
+          "url": "https://dummy.cdn/parts/361613310-oem.pdf",
+          "type": "OE_INFO"
+        }
+      ]
     }
-  ],
+  ]
+}
   "profile": {
     "name": "typicode"
   }
