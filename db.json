@@ -138,9 +138,63 @@
         }
       ]
     }
+  ],
+   "vehicles": [
+    {
+      "id": "110221",
+      "vin": "WF0LXXGCD51K12345",
+      "makeId": 36,
+      "makeName": "FORD",
+      "modelId": 9876,
+      "modelName": "Focus III",
+      "engineCode": "1.6",
+      "yearFrom": "2011-09",
+      "yearTo": null
+    },
+    {
+      "id": "210334",
+      "vin": "WVWZZZ3CZ6E000001",
+      "makeId": 37,
+      "makeName": "VOLKSWAGEN",
+      "modelId": 7654,
+      "modelName": "Golf V",
+      "engineCode": "1.9 TDI",
+      "yearFrom": "2004-01",
+      "yearTo": "2008-12"
+    },
+    {
+      "id": "310445",
+      "vin": "WDB2030061A123456",
+      "makeId": 42,
+      "makeName": "MERCEDES-BENZ",
+      "modelId": 6543,
+      "modelName": "C-Class (W203)",
+      "engineCode": "C 200 CDI",
+      "yearFrom": "2002-03",
+      "yearTo": "2007-02"
+    },
+    {
+      "id": "410556",
+      "vin": "JMZBK14Z271234567",
+      "makeId": 72,
+      "makeName": "MAZDA",
+      "modelId": 5432,
+      "modelName": "Mazda 3 (BK)",
+      "engineCode": "1.6",
+      "yearFrom": "2004-06",
+      "yearTo": "2009-03"
+    },
+    {
+      "id": "510667",
+      "vin": "JTDKB20U507123456",
+      "makeId": 17,
+      "makeName": "TOYOTA",
+      "modelId": 4321,
+      "modelName": "Prius II (XW20)",
+      "engineCode": "1.5 Hybrid",
+      "yearFrom": "2003-08",
+      "yearTo": "2009-12"
+    }
   ]
 }
-  "profile": {
-    "name": "typicode"
-  }
 }
