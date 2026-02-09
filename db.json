@@ -1,136 +1,128 @@
 {
   "partnumber-search": [
     {
-      "id": "446521824",
-      "partId": "446521824",
       "partNumber": "51277162",
-      "brand": "HERTH+BUSS ELPARTS",
-      "type": "aftermarket",
-      "title": "Cable Repair Set, accelerator pedal sensor",
-      "status": "Normal",
-      "genericGroup": {
-        "id": 9193,
-        "name": "Cable Repair Set, accelerator pedal sensor"
-      },
-
-      "oemCrossMatchNumbers": [
-        { "number": "736410711000", "brand": "FORD", "isPreferred": true }
-      ],
-
-      "supplierDetails": [
+      "type": "oem",
+      "partName": "Accelerator Pedal Sensor Cable Repair Set",
+      "partDescription": "Repair set for accelerator pedal position sensor cable; restores proper throttle signal connection.",
+      "imageUrl": "https://example.com/images/51277162.jpg",
+      "compatibility": [
         {
-          "supplierType": "OEM",
           "number": "736410711000",
           "brand": "FORD",
-          "price": { "currency": "SAR", "value": 410.0 },
-          "deliveryTimeDays": 5,
-          "availability": { "inStock": true, "quantity": 12 }
+          "model": "Focus",
+          "year": "2018-2021",
+          "trim": "SE, Titanium"
         },
         {
-          "supplierType": "AFTERMARKET",
+          "number": "736410711001",
+          "brand": "FORD",
+          "model": "Focus",
+          "year": "2015-2017",
+          "trim": "Trend, Zetec"
+        },
+        {
+          "number": "736410711002",
+          "brand": "FORD",
+          "model": "C-Max",
+          "year": "2016-2020",
+          "trim": "Titanium, Trend"
+        }
+      ],
+      "aftermarket": [
+        {
           "number": "51277162",
           "brand": "HERTH+BUSS ELPARTS",
-          "price": { "currency": "SAR", "value": 220.0 },
-          "deliveryTimeDays": 2,
-          "availability": { "inStock": true, "quantity": 38 }
+          "tier": "premium"
         },
         {
-          "supplierType": "CHINESE",
           "number": "CN-ACC-REP-001",
           "brand": "DRAGONPARTS",
-          "price": { "currency": "SAR", "value": 140.0 },
-          "deliveryTimeDays": 10,
-          "availability": { "inStock": true, "quantity": 120 }
+          "tier": "cheap"
         }
       ]
     },
-
     {
-      "id": "530001107405",
-      "partId": "530001107405",
       "partNumber": "0 001 107 405",
-      "brand": "BOSCH",
-      "type": "aftermarket",
-      "title": "Starter motor",
-      "status": "Normal",
-      "genericGroup": {
-        "id": 16,
-        "name": "Starter"
-      },
-
-      "oemCrossMatchNumbers": [
-        { "number": "1613310", "brand": "FORD", "isPreferred": true }
-      ],
-
-      "supplierDetails": [
+      "type": "oem",
+      "partName": "Starter Motor",
+      "partDescription": "Electric starter motor for vehicle engine cranking; engages flywheel to start engine.",
+      "imageUrl": "https://example.com/images/0001107405.jpg",
+      "compatibility": [
         {
-          "supplierType": "OEM",
           "number": "1613310",
           "brand": "FORD",
-          "price": { "currency": "SAR", "value": 950.0 },
-          "deliveryTimeDays": 6,
-          "availability": { "inStock": true, "quantity": 6 }
+          "model": "Fiesta",
+          "year": "2017-2020",
+          "trim": "ST-Line, Zetec"
         },
         {
-          "supplierType": "AFTERMARKET",
+          "number": "1613311",
+          "brand": "FORD",
+          "model": "Focus",
+          "year": "2016-2019",
+          "trim": "Trend, Titanium"
+        },
+        {
+          "number": "1613312",
+          "brand": "FORD",
+          "model": "EcoSport",
+          "year": "2018-2021",
+          "trim": "Titanium, ST-Line"
+        }
+      ],
+      "aftermarket": [
+        {
           "number": "0 001 107 405",
           "brand": "BOSCH",
-          "price": { "currency": "SAR", "value": 620.0 },
-          "deliveryTimeDays": 3,
-          "availability": { "inStock": true, "quantity": 18 }
+          "tier": "premium"
         },
         {
-          "supplierType": "CHINESE",
           "number": "CN-STR-001",
           "brand": "YONGXING",
-          "price": { "currency": "SAR", "value": 310.0 },
-          "deliveryTimeDays": 12,
-          "availability": { "inStock": true, "quantity": 50 }
+          "tier": "cheap"
         }
       ]
     },
-
     {
-      "id": "43512-06150",
-      "partId": "43512-06150",
       "partNumber": "43512-06150",
-      "brand": "TOYOTA",
-      "type": "genuine",
-      "title": "Brake disc, front",
-      "status": "Normal",
-      "genericGroup": {
-        "id": 100032,
-        "name": "Brake Disc, front"
-      },
-
-      "oemCrossMatchNumbers": [
-        { "number": "43512-06150", "brand": "TOYOTA", "isPreferred": true }
-      ],
-
-      "supplierDetails": [
+      "type": "oem",
+      "partName": "Front Brake Disc",
+      "partDescription": "Genuine front brake disc for Toyota models; ensures proper braking surface for wheel hubs.",
+      "imageUrl": "https://example.com/images/43512-06150.jpg",
+      "compatibility": [
         {
-          "supplierType": "OEM",
           "number": "43512-06150",
           "brand": "TOYOTA",
-          "price": { "currency": "SAR", "value": 780.0 },
-          "deliveryTimeDays": 4,
-          "availability": { "inStock": true, "quantity": 9 }
+          "model": "Corolla",
+          "year": "2016-2021",
+          "trim": "LE, XLE, SE"
         },
         {
-          "supplierType": "AFTERMARKET",
+          "number": "43512-06151",
+          "brand": "TOYOTA",
+          "model": "Corolla",
+          "year": "2013-2015",
+          "trim": "LE, S, SE"
+        },
+        {
+          "number": "43512-06152",
+          "brand": "TOYOTA",
+          "model": "Camry",
+          "year": "2015-2018",
+          "trim": "LE, XLE, SE"
+        }
+      ],
+      "aftermarket": [
+        {
           "number": "09.A123.10",
           "brand": "BREMBO",
-          "price": { "currency": "SAR", "value": 520.0 },
-          "deliveryTimeDays": 2,
-          "availability": { "inStock": true, "quantity": 22 }
+          "tier": "premium"
         },
         {
-          "supplierType": "CHINESE",
           "number": "CN-BD-6150",
           "brand": "DRAGONPARTS",
-          "price": { "currency": "SAR", "value": 210.0 },
-          "deliveryTimeDays": 9,
-          "availability": { "inStock": true, "quantity": 80 }
+          "tier": "cheap"
         }
       ]
     }
